@@ -1,7 +1,7 @@
 import { defineConfig, type DefaultTheme, type UserConfig } from 'vitepress'
 
 const config: UserConfig<DefaultTheme.Config> = {
-    base: '/',
+    base: '/Middenly/',
     lang: 'en-US',
     title: 'Middenly',
     description: 'Production-ready .NET libraries for distributed systems',
