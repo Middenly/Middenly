@@ -1,0 +1,7 @@
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+docs/node_modules/
+
+# Sub-repos (managed separately)
+Middenly.Outbox/
+midden-landing/
