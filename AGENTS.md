@@ -42,6 +42,10 @@ npm install
 npm run build
 ```
 
+## Branch Convention
+
+- Main branch: `main` (NOT `master`)
+
 ## Commit Convention
 
 Do NOT commit unless the user explicitly asks. When committing:

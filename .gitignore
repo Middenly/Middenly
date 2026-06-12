@@ -1,6 +1,19 @@
+# VitePress build output & dependencies
 docs/.vitepress/dist/
 docs/.vitepress/cache/
 docs/node_modules/
+_src/.vitepress/dist/
+_src/node_modules/
+
+# Build artifacts (deployed by CI)
+404.html
+index.html
+assets/
+hashmap.json
+icon.png
+vp-icons.css
+.nojekyll
+outbox/
 
 # Sub-repos (managed separately)
 Middenly.Outbox/
