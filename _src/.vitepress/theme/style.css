@@ -159,40 +159,11 @@ html {
 
 .VPNav {
   border-bottom: 1px solid var(--middenly-divider) !important;
-  background: var(--middenly-nav-bg) !important;
-  backdrop-filter: blur(12px);
 }
 
 .VPNav .title {
   font-weight: 600;
   letter-spacing: -0.02em;
-}
-
-/* ---- Mobile Nav Screen (hamburger menu overlay) ---- */
-
-.VPNavScreen {
-  background-color: var(--middenly-sidebar-bg) !important;
-}
-
-.VPNavScreen .VPNavScreenMenuLink {
-  color: var(--middenly-text-2);
-}
-
-.VPNavScreen .VPNavScreenMenuLink:hover,
-.VPNavScreen .VPNavScreenMenuLink.active {
-  color: var(--accent);
-}
-
-.VPNavScreen .VPNavScreenMenuGroup {
-  border-bottom: 1px solid var(--middenly-divider);
-}
-
-.VPNavScreen .VPNavScreenMenuGroup .item button {
-  color: var(--middenly-text-2);
-}
-
-.VPNavScreen .VPSwitchAppearance {
-  color: var(--middenly-text-2);
 }
 
 /* ---- Sidebar ---- */
@@ -460,34 +431,8 @@ html {
 /* ---- Mobile responsive ---- */
 
 @media (max-width: 768px) {
-  .VPNav {
-    background: var(--middenly-nav-bg) !important;
-  }
-
   .VPNavBar .wrapper {
     padding: 0 12px;
-  }
-
-  .VPNavBarHamburger .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
-  }
-
-  .VPNavScreen {
-    position: fixed;
-    top: var(--vp-nav-height, 56px);
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--middenly-sidebar-bg) !important;
-    z-index: 100;
-    overflow-y: auto;
-    padding: 24px 24px 48px;
   }
 
   .vp-doc div[class*="language-"] {
@@ -526,10 +471,6 @@ html {
 @media (max-width: 480px) {
   .VPNavBar .wrapper {
     padding: 0 8px;
-  }
-
-  .VPNavScreen {
-    padding: 16px 16px 48px;
   }
 
   .vp-doc div[class*="language-"] code {
