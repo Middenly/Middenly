@@ -11,7 +11,7 @@ hashmap.json
 icon.png
 vp-icons.css
 .nojekyll
-outbox/
+/outbox/
 
 # Sub-repos (managed separately)
 Middenly.Outbox/
